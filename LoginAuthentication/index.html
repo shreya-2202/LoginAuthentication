@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="StyleSheet.css">
+    <script defer src="app.js"></script>
+    <title>Login Form</title>
+</head>
+<body>
+   
+    <div id="login-error-msg-holder">
+        <p id="login-error-msg">
+            Username is Incorect Or Password is Incorect
+            <span id="error-msg-second-line"></span>
+        </p>
+    </div>
+    <form class="form" action="#" id="login-form">
+        <div class="login">Login Form</div>
+        <div class="container">
+            <div class="form-floating">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" class="form-floating" placeholder="Enter Username" id="Input" required name="uname">
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" class="form-floating"  placeholder="Enter Password" name="psw" id="Password" required>
+
+            <button type="submit" id="submit" >Login</button>
+
+            <label class="psw"><a href="#">Forgot password?</a></label>
+        </div>
+            </div>
+
+    </form>
+
+</body>
+</html>
